@@ -1,4 +1,6 @@
-module.exports = function isWeekday(name) {
+ 
+ 
+  export default function isWeekday(name) {
     var arr = ['Monday' , 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
     return arr.includes(name)
   }
